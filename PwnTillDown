@@ -1,0 +1,10 @@
+### LAB WEEK 3: PwnTillDawn 1st Box
+
+1. open terminal and run `openvpn PwnTillDawn.ovpn`.
+2. Scan the network in the range `10.150.150.10-254`.
+3. Pick your desire ip address like `10.150.150.242`
+
+**RECON:**
+
+1. `nmap -F 10.150.150.242` to see available open ports.
+2. common open port found: **53** (domain), **80** (http), **445** (smb)
